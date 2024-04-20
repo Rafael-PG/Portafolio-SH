@@ -1,0 +1,107 @@
+/* experiencia */
+
+section.experience {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 80vw;
+  align-items: center;
+}
+
+.experience__box {
+  display: flex;
+  align-items: center;
+}
+
+.experience__img {
+  width: 60vw;
+  border-radius: 1.5rem;
+}
+
+.experience__info-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.5rem;
+  /* Reducido de 2rem a 1rem */
+}
+
+.experiencia__botao--repo,
+.experience__botao--prueba {
+  all: unset;
+  width: 15vw;
+  font-size: 1.2rem;
+  text-align: center;
+  border-style: solid;
+  border-width: 0.01rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-color: #2a7ae4;
+}
+
+.experience__botao--prueba.active {
+  background-color: #2a7ae4;
+  color: white;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  section.experience {
+    width: 90vw;
+    height: 55vh;
+  }
+
+  .experience__section__title {
+    font-size: 1.3rem;
+  }
+
+  .experience__box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .experience__img {
+    width: 90vw;
+  }
+
+  .experiencia__botao--repo,
+  .experience__botao--prueba {
+    width: 13vw;
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 425px) {
+  section.experience {
+    height: auto;
+    /* Ajustado a altura automática */
+  }
+
+  .experience__section__title {
+    font-size: 1.2rem;
+  }
+
+  .experience__img {
+    width: 90vw;
+    /* Aumentado el ancho en dispositivos móviles */
+    max-width: 100%;
+    margin-bottom: 1rem;
+    /* Añadido margen inferior */
+  }
+
+  .experience__title {
+    font-size: 1.5rem;
+  }
+
+  .experience__text {
+    font-size: 1rem;
+  }
+
+  .experiencia__botao--repo,
+  .experience__botao--prueba {
+    width: 80%;
+    font-size: 1rem;
+
+  }
+}
