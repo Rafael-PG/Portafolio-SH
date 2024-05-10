@@ -35,13 +35,15 @@ section.experience {
   border-width: 0.01rem;
   margin-top: 1rem;
   padding: 1rem;
-  border-color: #2a7ae4;
+  border-color: #ce9645;
 }
 
 .experience__botao--prueba.active {
-  background-color: #2a7ae4;
+  background-color: #ce9645;
   color: white;
 }
+
+
 
 /* Tablet */
 @media screen and (max-width: 768px) {
@@ -74,34 +76,29 @@ section.experience {
 /* Mobile */
 @media screen and (max-width: 425px) {
   section.experience {
-    height: auto;
-    /* Ajustado a altura automática */
+    height: 45vh;
   }
 
   .experience__section__title {
     font-size: 1.2rem;
   }
 
-  .experience__img {
-    width: 90vw;
-    /* Aumentado el ancho en dispositivos móviles */
-    max-width: 100%;
-    margin-bottom: 1rem;
-    /* Añadido margen inferior */
-  }
+  /* .experience__img {
+    width:90vw;
+} */
 
   .experience__title {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .experience__text {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .experiencia__botao--repo,
-  .experience__botao--prueba {
-    width: 80%;
-    font-size: 1rem;
+  .experience__botao--demo {
+    width: 12vw;
+    font-size: 0.6rem;
 
   }
 }

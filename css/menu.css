@@ -5,7 +5,7 @@ section.menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: beige;
   color: #464646;
 }
 

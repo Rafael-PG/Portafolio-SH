@@ -1,7 +1,7 @@
 /*Sección About*/
 
 section.about {
-  background-color: #eaf2fd;
+  background-color: beige;
   height: 30vh;
   width: 100vw;
   margin-top: 2rem;
@@ -26,6 +26,7 @@ section.about {
 /*Tablet*/
 /* @media (min-width: 768px) { */
 @media screen and (max-width: 768px) {
+
   /* about */
   .about__container {
     width: 90vw;

@@ -3,6 +3,7 @@
 section.title {
   margin-top: 2rem;
   width: 80vw;
+  background-color: beige;
 }
 
 .title__div {
@@ -20,10 +21,11 @@ section.title {
   display: flex;
   flex-direction: column;
   justify-content: left;
+  color: black;
 }
 
 .title__bio {
-  font-size: 40px;
+  font-size: 45px;
   line-height: 1.2;
   /* Ajusta el espacio vertical entre las líneas */
 }
@@ -34,7 +36,7 @@ section.title {
 }
 
 .title_link {
-  color: #2a7ae4;
+  color: #ce9645;
 }
 
 .title__network {
@@ -49,7 +51,7 @@ section.title {
 
 .bi {
   font-size: 2rem;
-  color: #2a7ae4;
+  color: #ce9645;
 }
 
 .title__network__item--descargaCV {
@@ -60,7 +62,7 @@ section.title {
   border-radius: 10px;
   border-width: 0.01rem;
   padding: 1rem;
-  background-color: #2a7ae4;
+  background-color: #ce9645;
   color: white;
   transition: background-color 0.1s;
 }

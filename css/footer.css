@@ -2,15 +2,16 @@
 
 .footer {
   width: 100vw;
-  background: #2a7ae4;
+  background: #ce9645;
 }
 
 .footer__rodape {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #2a7ae4;
-  color: white;
+  background: #ce9645;
+  color: black;
+  font-weight: bold;
   font-size: 1.5rem;
 }
 

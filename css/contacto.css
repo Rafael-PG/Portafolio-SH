@@ -1,7 +1,7 @@
 /*Contacto*/
 
 section.formcontato {
-  background-color: #eaf2fd;
+  background-color: beige;
   margin-top: 2rem;
   width: 100vw;
   display: flex;
@@ -62,7 +62,7 @@ section.formcontato {
   border-width: 0.01rem;
   margin-top: 1rem;
   padding: 1rem;
-  background-color: #2a7ae4;
+  background-color: #ce9645;
   color: white;
   text-align: center;
   font-size: 1.2rem;
